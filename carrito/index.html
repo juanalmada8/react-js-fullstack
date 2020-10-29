@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Practico 6</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    
+</head>
+<body >
+    <div>
+        <h1>Lista de productos</h1> 
+    </div>
+    <div>
+        <h3>Presionar sobre el nombre de los productos a comprar</h3>
+    </div>
+    <script src="js/carritoDeCompras.js" ></script> 
+    <script>
+        window.onload = genera_tabla();
+    </script>
+    <div>
+        <h5>Para finalizar presione el boton Comprar</h6>
+    </div>
+    <div class="boton">
+        <button onclick="comprar()">Comprar</button>
+        <button onclick="cancelar()">Cancelar Compra</button>
+    </div>
+    <div class="carrito">
+        <h3>Carrito</h3>
+        <p>No has comprado nada</p>
+    </div>
+</body>
+</html>

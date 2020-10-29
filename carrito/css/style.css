@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    text-align: center;
+}
+
+th {
+    background-color: papayawhip;
+    font-size: large;
+}
+
+h1 {
+    color: lightseagreen;
+}
+
+.boton {
+    margin-top: 25px;
+}
